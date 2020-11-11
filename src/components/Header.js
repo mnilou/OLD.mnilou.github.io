@@ -15,5 +15,3 @@ const Header = ({name, contactEmail})=>{
         </div>
     )
 }
-
-export default Header
