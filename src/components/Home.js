@@ -1,6 +1,7 @@
 import React from 'react';
+import Image from '../assets/Image.jpg'
 
-const Home = ({name, paragraph, authorImage})=>{
+const Home = ({name, paragraph})=>{
 
     return(
     <div>
@@ -10,8 +11,9 @@ const Home = ({name, paragraph, authorImage})=>{
             <p>{paragraph}</p>
             </div>
             <div className="image_container">
-                <img src={authorImage} alt="Author"></img>
-                <div className="bg"></div>
+                <div className="bg">
+                <img src={Image} alt="Author"></img>
+                </div>
             </div>
             
         </div>

@@ -9,14 +9,14 @@ export default {
   landingPagePara:
     'Full Stack Web Developer. My approach to web development is holistic and caters to both the user experience and functionality. I am proficient in both front and back end coding. I design user-friendly websites, develop servers and databases for website functionality and code for mobile platforms.',
 
-  landingPageImage: './public/assets/Image.jpg',
+  landingPageImage: '/public/assets/Image.jpg',
 
   projects: [
     {
       id: 1,
       title: 'COVID Karaoke',
       // Image Size Should be (300X300 px)
-      imageSrc: './public/assets/screenshot-covidkaraoke.png',
+      imageSrc: '/public/assets/screenshot-covidkaraoke.png',
       url: 'https://covidkaraoke.herokuapp.com/',
     },
     {
@@ -51,9 +51,9 @@ export default {
     },
   ],
 
-  // Contact Section
+  // Contact Section//add icons
   contactPara:
-    'I am passionate about creative problem-solving in building beautifully balanced and functional websites. With both front-end and back-end expertise, I am comfortable working in PHP, MySQL, HTML5, CSS3, Javascript, jQuery, REACT, and other front-end technologies.',
+    'My passion is creative problem-solving in building beautifully balanced and functional websites. With both front-end and back-end expertise, I am comfortable working in PHP, MySQL, HTML5, CSS3, Javascript, jQuery, REACT, and other front-end technologies. Along with back-end database knowledge of mySQL, Mongoose, webpack and more.',
   social: [
     {
       name: 'LinkedIn',
@@ -73,5 +73,5 @@ export default {
   aboutTitle:
     'Lets make your project accessible, reliable, functional, and beautiful.',
   aboutPara:
-    'As a small-business owner of an event planning company for the past 11 years, I am organized, self-motivated, and comfortable making independent decisions. However, I am also adaptable and can thrive in a team environment with a collaborative effort to delivery quality web projects. My goal is to work directly with clients independently or as a collaborator, to ensure not only quality customer service, but quality products as well.',
+    'As a small-business owner of an event planning company for the past 11 years, organization, self-motivation, and independent decision-making are a must. However, adaptability and thriving in a team environment with a collaborative effort is a forte to deliver quality web projects. My goal is to work directly with clients independently or as a collaborator, to ensure not only quality customer service, but quality products as well.',
 };

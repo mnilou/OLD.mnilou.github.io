@@ -77,18 +77,17 @@ a{
   font-size: 1.5rem;
   opacity: 0.4;
 }
-.home_container .image_container img{
+.home_container .image_container img {
   position: relative;
   height: 26rem;
   width: 18rem;
-  top:5rem;
+  top: 5rem;
   border-style: solid;
   border-width: 5px;
   border-top: 0px;
   border-left: 0px;
   border-color: #1E6FD9;
 }
-
 
 /* Work */
 .work_container{
@@ -223,7 +222,7 @@ a{
   font-size: 0.7rem;
 }
 
-.home_container .image_container img {
+.home_container {
   height: 10rem;
   width: 8rem;
   top: 2rem;
@@ -327,7 +326,7 @@ a{
     font-size: 0.7rem;
   }
 
-  .home_container .image_container img {
+  .home_container {
     height: 10rem;
     width: 8rem;
     top: 2rem;
