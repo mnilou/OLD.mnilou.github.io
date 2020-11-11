@@ -11,9 +11,8 @@ const Home = ({name, paragraph})=>{
             <p>{paragraph}</p>
             </div>
             <div className="image_container">
-                <div className="bg">
+                <div className="bg"></div>
                 <img src={Image} alt="Author"></img>
-                </div>
             </div>
             
         </div>

@@ -11,46 +11,6 @@ export default {
 
   landingPageImage: '/public/assets/Image.jpg',
 
-  projects: [
-    {
-      id: 1,
-      title: 'COVID Karaoke',
-      // Image Size Should be (300X300 px)
-      imageSrc: '/public/assets/screenshot-covidkaraoke.png',
-      url: 'https://covidkaraoke.herokuapp.com/',
-    },
-    {
-      id: 2,
-      title: 'The Galactic Game',
-      imageSrc: './public/assets/starwars-2.jpg',
-      url: 'https://mpabst01.github.io/starWarsTrivia/',
-    },
-    {
-      id: 3,
-      title: 'Burger App',
-      imageSrc: './public/assets/burger-screenshot.jpg',
-      url: 'https://burgers-devoured-app.herokuapp.com/',
-    },
-    {
-      id: 4,
-      title: 'Weather Dashboard',
-      imageSrc: 'public/assets/weather-dashboard.jpg',
-      url: 'https://mnilou.github.io/weather-dashboard/',
-    },
-    {
-      id: 5,
-      title: 'Password Generator',
-      imageSrc: 'public/assets/password-generator.jpg',
-      url: 'https://mnilou.github.io/password-template/',
-    },
-    {
-      id: 6,
-      title: 'Employee Team Roster',
-      imageSrc: 'public/assets/team-profile-screenshot.jpg',
-      url: 'https://mnilou.github.io/employee-team-roster/',
-    },
-  ],
-
   // Contact Section//add icons
   contactPara:
     'My passion is creative problem-solving in building beautifully balanced and functional websites. With both front-end and back-end expertise, I am comfortable working in PHP, MySQL, HTML5, CSS3, Javascript, jQuery, REACT, and other front-end technologies. Along with back-end database knowledge of mySQL, Mongoose, webpack and more.',

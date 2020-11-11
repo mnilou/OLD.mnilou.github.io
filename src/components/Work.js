@@ -1,25 +1,35 @@
-import React from 'react';
+import React, {Component} from 'react';
+import projects from '../projects.json';
+import Project from './Project';
 
-const Work = ({projects}) =>{
-    return(
-        <div className="work_container">
-            <h1>Projects.</h1>
-            <div className="projects_container">
-                {projects.map((project)=>(
-                <div key={project.id} className="project">
-                    <div className="image">
-                        <a href={project.url}>
-                            <img src={project.imageSrc} alt={project.title}></img>
-                        </a>
-                    </div>
-                    <div className="title">
-                        {project.title}
-                    </div>
-                </div>
-                ))}
-            </div>
+class Work extends Component {
+  state = {
+    projects,
+  };
+
+  //   componentDidMount() {
+  //     console.log(projects);
+  //   }
+  render() {
+    return (
+      <div className="work_container">
+        <h1>Projects.</h1>
+        <div className="projects_container">
+          {this.state.projects.map((project) => {
+            return (
+              <Project
+                key={project.id}
+                id={project.id}
+                img={project.img}
+                url={project.url}
+                title={project.title}
+              />
+            );
+          })}
         </div>
-    )
+      </div>
+    );
+  }
 }
 
-export default Work
+export default Work;
